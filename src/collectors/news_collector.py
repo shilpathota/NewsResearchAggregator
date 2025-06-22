@@ -6,13 +6,18 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 import os
 import yaml
+import streamlit as st
+
 
 # Load API key from config file
+# def load_api_key():
+    # config_path = "config/config.yaml"
+    # with open(config_path, "r") as file:
+    #     config = yaml.safe_load(file)
+    # return config["news_api_key"]
+
 def load_api_key():
-    config_path = "config/config.yaml"
-    with open(config_path, "r") as file:
-        config = yaml.safe_load(file)
-    return config["news_api_key"]
+    return st.secrets["news_api_key"]
 
 def fetch_latest_news(query: str = "artificial intelligence OR machine learning", max_results: int = 10) -> List[Dict]:
     """
