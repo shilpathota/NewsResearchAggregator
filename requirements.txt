@@ -8,4 +8,4 @@ graphviz
 streamlit
 beautifulsoup4
 cmake
-sentencepiece==0.1.99
+sentencepiece
