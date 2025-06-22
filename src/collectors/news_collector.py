@@ -2,18 +2,36 @@ import requests
 import logging
 from datetime import datetime, timedelta
 from typing import List, Dict
-import streamlit as st
-
+import yaml
 
 # Load API key from config file
-# def load_api_key():
-    # config_path = "config/config.yaml"
-    # with open(config_path, "r") as file:
-    #     config = yaml.safe_load(file)
-    # return config["news_api_key"]
-
 def load_api_key():
-    return st.secrets["news_api_key"]
+    try:
+        # ✅ Streamlit Cloud: use secrets
+        import streamlit as st
+        if "news_api_key" in st.secrets:
+            return st.secrets["news_api_key"]
+    except ImportError:
+        pass  # Streamlit not installed or running outside Streamlit
+
+    # ✅ GitHub Actions or CLI: use environment variable
+    import os
+    if "news_api_key" in os.environ:
+        return os.environ["news_api_key"]
+
+    # ✅ Local dev: load from config/config.yaml
+    import yaml
+    config_path = "config/config.yaml"
+    if os.path.exists(config_path):
+        with open(config_path, "r") as file:
+            config = yaml.safe_load(file)
+            return config.get("news_api_key")
+
+    raise RuntimeError("news_api_key not found in Streamlit secrets, environment, or config.yaml")
+
+
+# def load_api_key():
+#     return st.secrets["news_api_key"]
 
 def fetch_latest_news(query: str = "artificial intelligence OR AI OR ML OR machine learning OR Large Language Models OR Generative AI OR Data Science OR Agentic AI OR MCP", max_results: int = 10) -> List[Dict]:
     """

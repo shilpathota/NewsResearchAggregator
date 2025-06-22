@@ -1,0 +1,38 @@
+name: Run AI/ML Pipeline
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # ⏰ Runs every 6 hours (adjust as needed)
+  workflow_dispatch:        # ✅ Allow manual runs from GitHub Actions tab
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout Code
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🛠️ Create Config with API Keys
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: |
+          mkdir -p config
+          echo "news_api_key: \"${NEWS_API_KEY}\"" >> config/config.yaml
+
+      - name: ▶️ Run Backend Pipeline
+        run: python run.py
+
+      - name: ✅ Upload Output (optional)
+        uses: actions/upload-artifact@v3
+        with:
+          name: news-papers-db
+          path: data/news_papers.db
