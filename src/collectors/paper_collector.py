@@ -4,7 +4,10 @@ import feedparser
 import logging
 from typing import List, Dict
 
-def fetch_latest_papers(query: str = "cat:cs.LG+OR+cat:cs.AI+OR+cat:stat.ML", max_results: int = 10) -> List[Dict]:
+def fetch_latest_papers(
+        query: str = "all:(generative AI OR large language models OR LLM OR foundation models OR multimodal OR diffusion OR image-to-text OR vision-language OR multi-modal)",
+        max_results: int = 10
+) -> List[Dict]:
     """
     Fetches the latest AI/ML papers from arXiv using the arXiv RSS/Atom API.
 

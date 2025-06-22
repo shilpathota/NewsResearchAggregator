@@ -19,7 +19,7 @@ import streamlit as st
 def load_api_key():
     return st.secrets["news_api_key"]
 
-def fetch_latest_news(query: str = "artificial intelligence OR machine learning", max_results: int = 10) -> List[Dict]:
+def fetch_latest_news(query: str = "artificial intelligence OR machine learning or Large Language Models or Generative AI", max_results: int = 10) -> List[Dict]:
     """
     Fetches the latest news articles using NewsAPI.
 
