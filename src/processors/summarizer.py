@@ -1,5 +1,3 @@
-# src/processors/summarizer.py
-
 import logging
 from typing import List, Dict
 from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM

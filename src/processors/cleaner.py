@@ -1,5 +1,3 @@
-# src/processors/cleaner.py
-
 import hashlib
 import logging
 import re

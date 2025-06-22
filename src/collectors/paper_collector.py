@@ -1,5 +1,3 @@
-# src/collectors/paper_collector.py
-
 import feedparser
 import logging
 from typing import List, Dict

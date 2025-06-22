@@ -1,4 +1,4 @@
-# src/ui/dashboard.py
+import json
 
 import streamlit as st
 import sqlite3
@@ -63,7 +63,7 @@ def display_papers():
             st.markdown("---")
 def main():
     st.set_page_config(page_title="AI/ML News & Research Dashboard", layout="wide")
-    st.title("🧠 AI & ML News + Paper Summarizer")
+    st.title("🧠 AI & ML News + Research Paper Summarizer")
     st.markdown("Explore the most relevant and recent updates in AI/ML from top news and research sources.")
 
     tab1, tab2 = st.tabs(["📰 News", "📄 Research Papers"])

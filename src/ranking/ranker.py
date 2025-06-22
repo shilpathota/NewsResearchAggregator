@@ -1,5 +1,3 @@
-# src/ranking/ranker.py
-
 from datetime import datetime
 from typing import List, Dict
 import logging

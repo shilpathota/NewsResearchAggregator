@@ -1,4 +1,3 @@
-# src/processors/diagram_generator.py
 
 import logging
 from typing import List, Dict

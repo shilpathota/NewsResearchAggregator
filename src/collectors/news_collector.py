@@ -1,11 +1,7 @@
-# src/collectors/news_collector.py
-
 import requests
 import logging
 from datetime import datetime, timedelta
 from typing import List, Dict
-import os
-import yaml
 import streamlit as st
 
 
@@ -19,7 +15,7 @@ import streamlit as st
 def load_api_key():
     return st.secrets["news_api_key"]
 
-def fetch_latest_news(query: str = "artificial intelligence OR machine learning or Large Language Models or Generative AI", max_results: int = 10) -> List[Dict]:
+def fetch_latest_news(query: str = "artificial intelligence OR machine learning OR Large Language Models OR Generative AI OR Data Science", max_results: int = 10) -> List[Dict]:
     """
     Fetches the latest news articles using NewsAPI.
 
