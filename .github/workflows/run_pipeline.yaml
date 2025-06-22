@@ -32,7 +32,7 @@ jobs:
         run: python run.py
 
       - name: ✅ Upload Output (optional)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: news-papers-db
           path: data/news_papers.db
