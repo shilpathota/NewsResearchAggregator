@@ -1,0 +1,10 @@
+requests
+feedparser
+PyYAML
+transformers
+torch
+sentence-transformers
+graphviz
+streamlit
+beautifulsoup4
+sentencepiece

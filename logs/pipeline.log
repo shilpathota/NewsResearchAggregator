@@ -1,0 +1,178 @@
+2025-06-22 13:35:15,491 - INFO - Pipeline started.
+2025-06-22 13:35:15,771 - INFO - Fetched 10 news articles.
+2025-06-22 13:35:18,071 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 13:35:18,075 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:35:18,080 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:38:02,658 - INFO - Summarized 10 items using huggingface.
+2025-06-22 13:40:38,428 - INFO - Pipeline started.
+2025-06-22 13:40:38,739 - INFO - Fetched 10 news articles.
+2025-06-22 13:40:40,113 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 13:40:40,114 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:40:40,115 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:41:37,434 - INFO - Summarized 10 items using huggingface.
+2025-06-22 13:42:48,015 - INFO - Summarized 10 items using huggingface.
+2025-06-22 13:42:48,017 - INFO - Ranked and selected top 5 items.
+2025-06-22 13:42:48,018 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,018 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,018 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,018 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,019 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,019 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,019 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,019 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,020 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,020 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:42:48,020 - INFO - Ranked and selected top 5 items.
+2025-06-22 13:42:48,050 - INFO - Database initialized.
+2025-06-22 13:42:48,059 - INFO - 5 news entries saved to DB.
+2025-06-22 13:42:48,062 - INFO - Database initialized.
+2025-06-22 13:42:48,069 - INFO - 5 papers entries saved to DB.
+2025-06-22 13:42:48,069 - INFO - Pipeline completed successfully.
+2025-06-22 13:45:07,143 - INFO - Pipeline started.
+2025-06-22 13:45:07,319 - INFO - Fetched 10 news articles.
+2025-06-22 13:45:08,169 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 13:45:08,170 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:45:08,172 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 13:46:10,762 - INFO - Summarized 10 items using huggingface.
+2025-06-22 13:47:33,158 - INFO - Summarized 10 items using huggingface.
+2025-06-22 13:47:33,161 - INFO - Ranked and selected top 5 items.
+2025-06-22 13:47:33,161 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,161 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,161 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,163 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 13:47:33,164 - INFO - Ranked and selected top 5 items.
+2025-06-22 13:47:33,166 - INFO - Database initialized.
+2025-06-22 13:47:33,173 - INFO - 5 news entries saved to DB.
+2025-06-22 13:47:33,178 - INFO - Database initialized.
+2025-06-22 13:47:33,184 - INFO - 5 papers entries saved to DB.
+2025-06-22 13:47:33,185 - INFO - Pipeline completed successfully.
+2025-06-22 14:13:00,700 - INFO - Pipeline started.
+2025-06-22 14:13:00,877 - INFO - Fetched 10 news articles.
+2025-06-22 14:13:01,671 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:13:01,671 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:13:01,671 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:14:15,569 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:15:43,936 - INFO - Pipeline started.
+2025-06-22 14:15:44,143 - INFO - Fetched 10 news articles.
+2025-06-22 14:15:44,888 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:15:44,888 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:15:44,888 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:16:41,080 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:17:56,266 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:18:41,388 - INFO - Pipeline started.
+2025-06-22 14:18:41,664 - INFO - Fetched 10 news articles.
+2025-06-22 14:18:42,346 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:18:42,346 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:18:42,346 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:19:38,115 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:20:44,634 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:22:23,541 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:22:23,541 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:22:23,561 - INFO - Database initialized.
+2025-06-22 14:22:23,574 - INFO - 5 news entries saved to DB.
+2025-06-22 14:22:23,574 - INFO - Database initialized.
+2025-06-22 14:22:23,586 - INFO - 5 papers entries saved to DB.
+2025-06-22 14:22:23,586 - INFO - Pipeline completed successfully.
+2025-06-22 14:23:13,550 - INFO - Pipeline started.
+2025-06-22 14:23:13,668 - INFO - Fetched 10 news articles.
+2025-06-22 14:23:14,239 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:23:14,239 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:23:14,239 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:24:03,318 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:25:31,252 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:27:39,010 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:27:39,010 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,010 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,011 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,011 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,011 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:27:39,012 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:27:39,018 - INFO - Database initialized.
+2025-06-22 14:27:39,028 - INFO - 5 news entries saved to DB.
+2025-06-22 14:27:39,036 - INFO - Database initialized.
+2025-06-22 14:27:39,045 - INFO - 5 papers entries saved to DB.
+2025-06-22 14:27:39,047 - INFO - Pipeline completed successfully.
+2025-06-22 14:33:21,191 - INFO - Pipeline started.
+2025-06-22 14:33:21,408 - INFO - Fetched 10 news articles.
+2025-06-22 14:33:22,122 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:33:22,122 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:33:22,122 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:34:16,525 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:35:24,785 - INFO - Pipeline started.
+2025-06-22 14:35:25,012 - INFO - Fetched 10 news articles.
+2025-06-22 14:35:25,948 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:35:25,950 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:35:25,950 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:36:18,136 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:37:51,665 - INFO - Pipeline started.
+2025-06-22 14:37:51,893 - INFO - Fetched 10 news articles.
+2025-06-22 14:37:52,627 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:37:52,627 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:37:52,627 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:38:46,097 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:40:20,981 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:40:43,675 - INFO - Pipeline started.
+2025-06-22 14:40:43,929 - INFO - Fetched 10 news articles.
+2025-06-22 14:40:44,693 - INFO - Fetched 10 papers from arXiv.
+2025-06-22 14:40:44,693 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:40:44,693 - INFO - 10 items retained after cleaning and deduplication.
+2025-06-22 14:41:47,133 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:43:00,443 - INFO - Summarized 10 items using huggingface.
+2025-06-22 14:43:11,108 - INFO - insights  - > {}
+2025-06-22 14:43:11,108 - INFO - {}
+2025-06-22 14:43:20,061 - INFO - insights  - > {}
+2025-06-22 14:43:20,062 - INFO - {}
+2025-06-22 14:43:32,201 - INFO - insights  - > {}
+2025-06-22 14:43:32,202 - INFO - {}
+2025-06-22 14:43:42,478 - INFO - insights  - > {}
+2025-06-22 14:43:42,478 - INFO - {}
+2025-06-22 14:43:52,579 - INFO - insights  - > {}
+2025-06-22 14:43:52,579 - INFO - {}
+2025-06-22 14:44:02,808 - INFO - insights  - > {}
+2025-06-22 14:44:02,808 - INFO - {}
+2025-06-22 14:44:13,523 - INFO - insights  - > {}
+2025-06-22 14:44:13,523 - INFO - {}
+2025-06-22 14:44:24,766 - INFO - insights  - > {}
+2025-06-22 14:44:24,766 - INFO - {}
+2025-06-22 14:44:44,139 - INFO - insights  - > {}
+2025-06-22 14:44:44,139 - INFO - {}
+2025-06-22 14:44:58,387 - INFO - insights  - > {}
+2025-06-22 14:44:58,387 - INFO - {}
+2025-06-22 14:44:58,390 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,390 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,392 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,392 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,392 - WARNING - Failed to parse date '': time data '' does not match format '%Y-%m-%dT%H:%M:%SZ'
+2025-06-22 14:44:58,392 - INFO - Ranked and selected top 5 items.
+2025-06-22 14:44:58,397 - INFO - Database initialized.
+2025-06-22 14:44:58,409 - INFO - 5 news entries saved to DB.
+2025-06-22 14:44:58,416 - INFO - Database initialized.
+2025-06-22 14:44:58,427 - INFO - 5 papers entries saved to DB.
+2025-06-22 14:44:58,429 - INFO - Pipeline completed successfully.
