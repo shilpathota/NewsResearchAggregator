@@ -7,4 +7,4 @@ sentence-transformers
 graphviz
 streamlit
 beautifulsoup4
-sentencepiece
+sentencepiece==0.1.99
